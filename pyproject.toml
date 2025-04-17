@@ -1,0 +1,16 @@
+[project]
+name = "bilibili-mcp"
+version = "0.1.0"
+description = "MCP server for Bilibili API access with error handling and logging"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "bilibili-api-python>=17.1.4",
+    "mcp[cli]>=1.6.0",
+]
+
+[tool.mcp]
+transport = "stdio"
+log_level = "INFO"
+
