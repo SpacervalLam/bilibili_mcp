@@ -8,9 +8,6 @@ A Model Context Protocol (MCP) server that provides access to Bilibili's API fun
 - Get video information
 - Get user information
 - Fetch video comments
-- Get popular videos
-- Comprehensive error handling
-- Detailed logging
 
 ## Installation
 
@@ -107,4 +104,4 @@ The server logs all operations to stdout with timestamps. Logs include:
 
 ## License
 
-MIT
+没有
